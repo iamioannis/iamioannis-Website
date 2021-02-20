@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import Layout from '../components/layout'
 
 const PostTemplate = ({ data }) => {
-    const { markdownRemarks } = data;
+    const { markdownRemark } = data;
     const { frontmatter, html } = markdownRemark;
     return (
         <Layout>
@@ -22,12 +22,11 @@ const PostTemplate = ({ data }) => {
 export default PostTemplate;
 
 export const pageQuery = graphql`
-  query($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        path
         title
       }
     }
