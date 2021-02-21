@@ -1,21 +1,31 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
+import Img from 'gatsby-image';
 const BlogPage = ({ data }) => {
-    const posts = data.allMarkdownRemark.edges
+  const posts = data.allMarkdownRemark.edges;
   return (
     <Layout>
-      <div className="post-list"></div>
-      {posts.map(post => (
+      <div className="post-list">
+        {posts.map(post => (
           <div key={post.node.id} className="post-list__item">
-              <h2>{post.node.frontmatter.title}</h2>
-              <p>{post.node.frontmatter.date}</p>
-              <div className="post-list__excerpt">
-                  <p>{post.node.excerpt}</p>
+            <div className="post-list__thumbnail">
+              <Link to={post.node.fields.slug}>
+{/* Keeping the Img import in case I want to add thmbnails in the blog list */}
+                {/* <Img
+                  fixed={post.node.frontmatter.thumbnail.childImageSharp.fixed}
+                  /> */}
+                </Link>
+                </div>
+                <div className="post-list__content">
+                  <h2>{post.node.frontmatter.title}</h2>
+                  <p>{post.node.frontmatter.date}</p>
+                  <div className="post-list__excerpt">{post.node.excerpt}</div>
+                  <Link to={post.node.fields.slug}>Read More</Link>
+                </div>
               </div>
-              <Link to={post.node.fields.slug}>Read More</Link>
-          </div>
-      ))}
+        ))}
+      </div>
     </Layout>
   );
 };
@@ -36,6 +46,13 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            thumbnail {
+              childImageSharp {
+                fixed(width: 200, height: 200) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
+            }
           }
         }
       }
