@@ -6,3 +6,4 @@ thumbnail: "../../images/gatsby-astronaut.png"
 ---
 
 This is my first blog post. Hello World!
+![Kitten One](../../images/gatsby-astronaut.png)
