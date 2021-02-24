@@ -40,7 +40,7 @@ exports.createPages = ({ actions, graphql }) => {
         context: { slug: node.fields.slug }, // additional data can be passed via context
       });
     });
-    
+
     // create Tags pages    
     // pulled directly from https://www.gatsbyjs.org/docs/adding-tags-and-categories-to-blog-posts/#add-tags-to-your-markdown-files
     let tags = [];

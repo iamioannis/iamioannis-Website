@@ -13,7 +13,7 @@ const BlogPage = ({ data }) => {
           <div key={post.node.id} className="post-list__item">
             <div className="post-list__thumbnail">
               <Link to={post.node.fields.slug}>
-{/* Keeping the Img import in case I want to add thmbnails in the blog list */}
+                {/* Keeping the Img import in case I want to add thmbnails in the blog list */}
                 {/* <Img
                   fixed={post.node.frontmatter.thumbnail.childImageSharp.fixed}
                   /> */}
@@ -50,7 +50,7 @@ export default BlogPage;
 // Get all markdown data, in descending order by date, and grab the id, excerpt, slug, date, and title
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: {type: {eq: "post"}}}) {
       edges {
         node {
           id
@@ -62,6 +62,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             tags
+            type
             thumbnail {
               childImageSharp {
                 fixed(width: 200, height: 200) {
