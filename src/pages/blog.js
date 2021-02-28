@@ -8,19 +8,13 @@ const BlogPage = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
   return (
     <Layout>
+      <h2>Writing</h2>
       <div className="post-list">
         {posts.map(post => (
           <div key={post.node.id} className="post-list__item">
-            <div className="post-list__thumbnail">
-              <Link to={post.node.fields.slug}>
-                {/* Keeping the Img import in case I want to add thmbnails in the blog list */}
-                {/* <Img
-                  fixed={post.node.frontmatter.thumbnail.childImageSharp.fixed}
-                  /> */}
-                </Link>
-                </div>
+
                 <div className="post-list__content">
-                  <h2>{post.node.frontmatter.title}</h2>
+                <Link to={post.node.fields.slug}>{post.node.frontmatter.title}</Link><span style={{margin:'auto 70px'} }>{post.node.frontmatter.date}</span>
                   {post.node.frontmatter.tags ? (
                     <div className="tags-container">
                       {/* Taglist Begin */}
@@ -34,9 +28,9 @@ const BlogPage = ({ data }) => {
                   </div>
                   ) : null}
                   {/* Taglist End */}
-                  <p>{post.node.frontmatter.date}</p>
-                  <div className="post-list__excerpt">{post.node.excerpt}</div>
-                  <Link to={post.node.fields.slug}>Read More</Link>
+                  {/* <p>{post.node.frontmatter.date}</p> */}
+                  {/* <div className="post-list__excerpt">{post.node.excerpt}</div> */}
+                  {/* <Link to={post.node.fields.slug}>{post.node.frontmatter.title}</Link> */}
                 </div>
               </div>
         ))}
