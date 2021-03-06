@@ -1,17 +1,15 @@
-.post-list__item {
-    display: flex;
-    flex-direction: row;
-    @media (max-width: 500px) {
-      flex-direction: column;
-      text-align: center;
-    }
-    padding: 1rem;
-  }
-  .post-list__thumbnail {
-    padding: 1rem;
-  }
+.post-list__item {}
+  .post-list__thumbnail {}
   
   .post-list__content {
-    padding: 1rem;
-    text-align: left;
+    line-height: 0em;
+  }
+  .post-header{
+    display:table;
+    margin:0 auto;
+  }
+  .post-date{
+    display:table;
+    margin:0 auto;
+    color:grey;
   }

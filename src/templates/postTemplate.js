@@ -10,8 +10,9 @@ const PostTemplate = ({ data }) => {
         <Layout>
             <section>
                 <div>
-                    <h1>{frontmatter.title}</h1>
-                    <span>{frontmatter.date}</span>
+                    <h1 className={"post-header"}>{frontmatter.title}</h1>
+                    <span className={"post-date"}>{frontmatter.date}</span>
+                    {/* <span>{frontmatter.tags}</span> */}
                 </div>
                 <div dangerouslySetInnerHTML={{__html: html}} />
             </section>
@@ -28,6 +29,7 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        tags
       }
     }
   }

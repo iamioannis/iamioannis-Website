@@ -1,7 +1,9 @@
 # North Star beyond the newspeak 
 
+## _Draft_
+
 North Stars are the way you want your customers to feel when they are using your product
-A North star is the way want to form the relation between your company and your customer
+A North star is the way you want to form the relation between your company and your customer
 
 
 There are two types of North Stars in terms of terminology and purpose. The North Start metric and cultural North Stars. Although a North Star Metric can be related to a cultural North start (more on that below) it is not definitive that the two will always be related 

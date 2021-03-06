@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `iamioannis`,
+    description: `Personal Internet corner of Ioannis Mastigopoulos`,
+    author: `@iamioannis`,
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -50,13 +50,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `iamioannis`,
+        short_name: `iamioannis`,
         start_url: `/`,
         background_color: `#F3F1E7`,
         theme_color: `#F3F1E7`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/yiannisfinalFavicon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
