@@ -2,13 +2,15 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import Newsletter from '../components/newsletter'
-import Img from 'gatsby-image';
-import { kebabCase } from 'lodash';
+// import Img from 'gatsby-image';
+// import { kebabCase } from 'lodash';
+import SEO from "../components/seo"
 
 const BlogPage = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
   return (
     <Layout>
+      <SEO title="Writing" />
       <h1>Writing</h1>
       <div className="post-list">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt bibendum eros ut convallis. Sed dapibus eros eget justo fringilla ultricies. Nulla quis ante vel purus dapibus dignissim. Aenean cursus condimentum fringilla. Fusce tristique libero diam, hendrerit egestas nunc malesuada eget.</p>
@@ -18,7 +20,7 @@ const BlogPage = ({ data }) => {
         {posts.map(post => (
           <ul key={post.node.id} className="post-list__item">
                 <li className="post-list__content">
-                <Link to={post.node.fields.slug}>{post.node.frontmatter.title}</Link><span style={{margin:'auto 70px', color:'grey'}}>{post.node.frontmatter.date}</span>
+                <Link to={post.node.fields.slug}>{post.node.frontmatter.title}</Link><span style={{color:'grey'}}> - {post.node.frontmatter.date}</span>
                   {/* Taglist End */}
                   {/* <p>{post.node.frontmatter.date}</p> */}
                   {/* <div className="post-list__excerpt">{post.node.excerpt}</div> */}

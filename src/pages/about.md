@@ -1,3 +1,6 @@
+---
+title: About
+---
 # About
 
 Nice to meet you and welcome to my corner of the internet

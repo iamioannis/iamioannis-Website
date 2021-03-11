@@ -2,7 +2,7 @@
   .post-list__thumbnail {}
   
   .post-list__content {
-    line-height: 0em;
+    line-height: .5em;
   }
   .post-header{
     display:table;
@@ -12,4 +12,8 @@
     display:table;
     margin:0 auto;
     color:grey;
+  }
+
+  .posts-title{
+    
   }
