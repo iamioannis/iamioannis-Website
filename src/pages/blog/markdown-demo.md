@@ -24,7 +24,7 @@ ___
 
 ## Typographic replacements
 
-Enable typographer option to see result.
+<mark>Enable typographer option to see result.</mark>
 
 (c) (C) (r) (R) (tm) (TM) (p) (P) +-
 

@@ -1,27 +1,39 @@
 import React from 'react'
 
 const Newsletter = ({children}) =>(
-  <div style={{backgroundcolor: `#FFFFE4`, marginTop:`20px`}}>
+  <div style={{
+    backgroundcolor: `#FFFFF`, 
+    // marginTop:`20px`,
+    // marginRight:`10px`,
+    margin: `20px 7em 10px`,
+    textAlign: `center`,
+    border: `1px dotted`,
+    // maxWidth: `150px`
+  }}>
     <a>Place holder for newsletter text to add</a>
     <form action="https://iamioannis.substack.com/api/v1/import/form" method="post" target="result">
        <input type="email" name="email" placeholder="Your email address" style={{ color: `#000`, borderColor: `#e3e3e3`, borderRadius: `0`, fontweight: `400`, background: `#ffffff`, fontsize: `15px`,
      border: `1px solid #e3e3e3`,
      lineheight: `1`,
       }}></input>
+       <p style={{
+           marginBlockStart: `10px`,
+            marginBlockEnd: `10px`,
+       }}>
  
-       <p>
         <input type="hidden" name="source" value="external"></input>
         <input type="submit" value="Subscribe" style={{
           color: `#a33k`,
-          backgroundcolor: `#69a74e`,
+          backgroundcolor:`#69a74e`,
           borderradius: `4px`,
           fontweight: `400`,
-          textalign: `center`,
+          textalign: `left`,
           fontsize: `15px`,
-          lineheight: `1`}}></input>
+          lineheight: `0.5`,
+          }}></input>
       </p> 
       </form>
-      <a>Disclaimer: The newsletter is handled by Substack</a>
+      <a style={{fontSize:`13px`, fontStyle: `italic`}}>Disclaimer: The newsletter is handled by Substack</a>
       </div>
 )
 
