@@ -1,8 +1,6 @@
 ---
 title: About
 ---
-# About
-
 Nice to meet you and welcome to my corner of the internet
 
 My name is Ioannis Mastigopoulos and I created this website as I aim for it to be a central point for who I am on the internet.
