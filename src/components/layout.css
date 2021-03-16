@@ -43,8 +43,12 @@ strong {}
 dfn {}
 h1 {
   font-size: 2em;
+  font-family: "Playfair Display";
+  font-weight: 400;
 }
-h2 {}
+h2 {
+  font-family: "Playfair Display";
+}
 h3 {}
 h4 {}
 h5 {}
