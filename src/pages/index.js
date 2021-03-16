@@ -3,11 +3,12 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div style={{ maxWidth: `400px`, marginBottom: `1.45rem` }}>
-    <h1>Ioannis Mastigopoulos</h1>
+    <h1 className="index_title">Ioannis Mastigopoulos</h1>
     <p>👋 Hi</p>
     <p>Welcome to my personal Intenet corner</p>
     <Link to="/blog/">📝 Writing</Link> <br/>
