@@ -58,7 +58,26 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/yiannisfinalFavicon.png`, // This path is relative to the root of the site.
       },
+      
     },
+    {
+      resolve: 'gatsby-plugin-netlify',
+      options: {
+        headers: {
+          // Cache fonts forever
+          '/fonts/*': [
+            'Cache-Control: public',
+            'Cache-Control: max-age=365000000',
+            'Cache-Control: immutable'
+          ],
+          // Cache images for a week
+          '/images/*': [
+            'Cache-Control: public',
+            'Cache-Control: max-age=604800'
+          ]
+        }
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
