@@ -8,17 +8,24 @@ const Newsletter = ({children}) =>(
     margin: `20px 7em 10px`,
     textAlign: `center`,
     border: `1px dotted`,
-    // maxWidth: `150px`
+    // maxWidth: `150px`,
+    minWidth:`fit-content`
   }}>
-    <a>Place holder for newsletter text to add</a>
+    <a>Want to receive conent from me on your inbox?</a>
     <form action="https://iamioannis.substack.com/api/v1/import/form" method="post" target="result">
-       <input type="email" name="email" placeholder="Your email address" style={{ color: `#000`, borderColor: `#e3e3e3`, borderRadius: `0`, fontweight: `400`, background: `#ffffff`, fontsize: `15px`,
-     border: `1px solid #e3e3e3`,
-     lineheight: `1`,
-      }}></input>
+       <input type="email" name="email" placeholder="Your email address" style={{ 
+         color: `#000`, 
+         borderColor: `#e3e3e3`, 
+         borderRadius: `0`, 
+         fontweight: `400`, 
+         background: `#ffffff`, 
+         fontsize: `15px`,
+         border: `1px solid #e3e3e3`,
+         lineheight: `1`,
+        }}></input>
        <p style={{
-           marginBlockStart: `10px`,
-            marginBlockEnd: `10px`,
+         marginBlockStart: `10px`,
+         marginBlockEnd: `10px`,
        }}>
  
         <input type="hidden" name="source" value="external"></input>

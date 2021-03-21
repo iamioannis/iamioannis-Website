@@ -3,7 +3,7 @@ path: /blog/long-post.md
 title: One Long Post
 date: 2021-03-11
 type: "post"
-tags: ['Demo', 'Long form' ]
+tags: ['Demo', 'Long form', 'newsletter' ]
 ---
 
 Can you make it stand out more? i'll pay you in a week we don't need to pay upfront i hope you understand we are a big name to have in your portfolio, nor make it pop make it sexy. Could you rotate the picture to show the other side of the room? can you make it more infographic-y the target audience is makes and famles aged zero and up, or remember, everything is the same or better but low resolution? It looks ok on my screen. We are your relatives can't you just take a picture from the internet? so can you make the font bigger? and try making it a bit less blah I got your invoice...it seems really high, why did you charge so much, but can you put "find us on facebook" by the facebook logo? we are your relatives. Submit your meaningless business jargon to be used on the site! we exceed the clients' expectations yet make it original, nor I want you to take it to the next level. What you've given us is texty, we want sexy. 
