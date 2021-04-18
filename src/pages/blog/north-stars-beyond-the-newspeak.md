@@ -1,4 +1,10 @@
-# North Star beyond the newspeak 
+---
+path: /blog/north-stars-beyond-the-newspeak.md
+title: North Star beyond the newspeak
+date: 2021-04-11
+type: "post"
+tags: ['Demo', 'Long form', 'newsletter', 'Product Management' ]
+---
 
 ## _Draft_
 
@@ -14,7 +20,7 @@ A North Star serve two purposes.
 1. Help people understand why the organisation exists.
 2. Guide people on creating the what of what they re building. 
 
-A sentence that can highlights the above usage of a North Star 
+A sentence that highlights the above usage of a North Star 
 
 We are doing [what] because we [why]
 Easy to connect a North Star to *why*

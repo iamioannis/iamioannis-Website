@@ -10,7 +10,7 @@ const IndexPage = () => (
     <div style={{ maxWidth: `400px`, marginBottom: `1.45rem` }}>
     <h1 className="index_title">Ioannis Mastigopoulos</h1>
     <p>👋 Hi</p>
-    <p>Welcome to my personal Intenet corner</p>
+    <p>Welcome to my personal Internet corner</p>
     <Link to="/blog/">📝 Writing</Link> <br/>
     <Link to="/about">🙋‍♂️ About me</Link> <br/>
     <Link to="/ch">👋 Clubhouse notes</Link> <br/>
