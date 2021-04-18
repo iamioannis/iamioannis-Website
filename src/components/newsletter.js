@@ -11,7 +11,7 @@ const Newsletter = ({children}) =>(
     // maxWidth: `150px`,
     minWidth:`fit-content`
   }}>
-    <a>Want to receive conent from me on your inbox?</a>
+    <a>Want to receive content from me on your inbox?</a>
     <form action="https://iamioannis.substack.com/api/v1/import/form" method="post" target="result">
        <input type="email" name="email" placeholder="Your email address" style={{ 
          color: `#000`, 
