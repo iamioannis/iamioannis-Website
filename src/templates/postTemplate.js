@@ -1,8 +1,9 @@
 import React from 'react'
-import { graphql } from "gatsby";
-
+import { graphql, Link } from "gatsby";
 import Layout from '../components/layout'
 import SEO from "../components/seo"
+import Navigation from "../components/navigation"
+
 
 const PostTemplate = ({ data }) => {
     const { markdownRemark } = data;
@@ -15,6 +16,7 @@ const PostTemplate = ({ data }) => {
                     <h1 className={"post-header"}>{frontmatter.title}</h1>
                     <span className={"post-date"}>{frontmatter.date}</span>
                     {/* <span>{frontmatter.tags}</span> */}
+                    <Navigation />
                 </div>
                 <div dangerouslySetInnerHTML={{__html: html}} />
             </section>
@@ -32,6 +34,13 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         tags
+        thumbnail {
+          childImageSharp {
+              fixed(width: 200, height: 200) {
+              ...GatsbyImageSharpFixed
+              }
+            }
+          }
       }
     }
   }

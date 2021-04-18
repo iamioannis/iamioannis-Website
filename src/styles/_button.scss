@@ -1,12 +1,19 @@
 .button {
-    background-color: rgba(rebeccapurple, 0.7);
-    color: white;
-    cursor: pointer;
-    font-weight: 700;
-    padding: 1rem;
-    text-transform: uppercase;
-    transition: all 0.4s ease;
+    margin-top: 1em;
+    width: max-content;
+    background-color: #F3F1E7;
+    color: black;
+    // cursor:-webkit-pointer;
+    font-weight: 550;
+    // padding: 1rem;
+    // transition: all 0.4s ease;
+    border-radius: 50px;
+    // box-shadow:  20px 20px 60px #cfcdc4,
+    //          -20px -20px 60px #ffffff;
     &:hover {
-      background-color: rgba(rebeccapurple, 0.9);
+      background-color: F3F1E7;
     }
+  }
+  .noselect{
+    user-select: none;
   }
