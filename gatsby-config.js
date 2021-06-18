@@ -36,6 +36,15 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              className: `custom-class`,
+              maintainCase: true,
+              removeAccents: true,
+              isIconAfterHeader: true,
+          },
+        },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               // It's important to specify the maxWidth (in pixels) of
