@@ -9,7 +9,7 @@ You can find about for a work experience in a more CV like format you can check 
 
 ## Ways to Connect
 
-If you have something to share with me, feedback about something I have written here or elsewhere my preferred mode of contact is email.
+If you have something to share with me, feedback about something I wrote here or elsewhere my preferred mode of contact is email.
 
 My email address is [iamioannis@hey.com](<mailto:iamioannis@hey.com>)
 
