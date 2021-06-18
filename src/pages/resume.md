@@ -2,10 +2,15 @@
 title: Resume
 ---
 ## Work Experience
+---
+### **Product Manager @ Beat**
 
+*May 2021 -  Present, Remote*
+
+Part of the Product team of Beat and working at Passenger and Driver experience.
 ### **Product Owner @ Kaizen Gaming**
 
-*May 2019 - Present, Greece*
+*May 2019 - May 2021, Greece*
 
 Worked on launching various Products, mainly on the tools vertical, as part of a Senior Scrum Team and Product team.
 Collaborating in a Tribe and Company level on Product Strategy, Roadmap and Product Development
@@ -59,11 +64,9 @@ Delivering workshops on the following subjects.
 • iCloud
 * Mentor
   * Part of the of the Mentor Team at the UK flagship store in Covent Garden. My role is to support the team with necessary training, support the on boarding process for new members of the team and help existing team members in role progression.
-
----
-
+  
 ## Education
-
+---
 ### BSc Honours in Computer Science (Software Engineering)
 
 University of Hertfordshire
@@ -77,7 +80,6 @@ Sindos Institute of Professional Training
 2005 - 2007, Thessaloniki, Greece
 
 ---
-
 | **Traits** | Industry knowledge | Skills |
 | :-------- | :----------- | :------ |
 | Passionate | Product Management | User Research |
