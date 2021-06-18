@@ -2,7 +2,7 @@ html,
 body {
   background-color: #F3F1E7;
   font-family: 'Spectral', sans-serif;
-
+  font-size: 18px;
 }
 main {}
 div {
@@ -42,7 +42,7 @@ b,
 strong {}
 dfn {}
 h1 {
-  font-size: 2em;
+  font-size:2.15em;
   font-family: "Playfair Display";
   font-weight: 400;
 }
