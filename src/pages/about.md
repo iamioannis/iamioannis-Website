@@ -11,7 +11,7 @@ You can find about for a work experience in a more CV like format you can check 
 
 If you have something to share with me, feedback about something I have written here or elsewhere my preferred mode of contact is email.
 
-My email address is <mailto:iamioannis@hey.com>
+My email address is [iamioannis@hey.com](<mailto:iamioannis@hey.com>)
 
 On the otther hand there is a whole world of the web so if you prefer social media bellow you can find my social media profiles that I am actively using. 
 * [LinkedIn](https://www.linkedin.com/in/ioannismastigopoulos/)
