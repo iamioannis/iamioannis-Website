@@ -19,12 +19,12 @@ const BlogPage = ({ data }) => {
         <h2>Blog</h2>
         <p>The "Blog" is my reference of writing through time. It can be longform or short form. All writing is collected at the Archive below. When (and if) the content list gets long you can us <Link to="/tags">Tags</Link> to find what topic you are interested easier</p>
         <h2>Newsletter</h2>
-        <p>Periodically I'm (about) to forward some of my writing throught my Newsletter. The format will can be long or short collections of many items. What is definnetely going to be about topics that I find interestings and I hope you find them too. To receive issues of my newsletter you can use the subscibe box below or read more about it in the <Link to="/newsletter/">Newsletter Page</Link></p>
+        <p>Periodically I'm (about) to forward some of my writing throught my Newsletter. The format will can be long or short collections of many items. What is definitely going to be about topics that I find interestings and I hope you find them too. To receive issues of my newsletter you can use the subscibe box below or read more about it in the <Link to="/newsletter/">Newsletter Page</Link></p>
         <h2>Archive</h2>
         {posts.map(post => (
           <ul key={post.node.id} className="post-list__item">
                 <li className="post-list__content">
-                <Link to={post.node.fields.slug}>{post.node.frontmatter.title}</Link><span style={{color:'grey'}}> - {post.node.frontmatter.date}</span>
+                <Link to={post.node.fields.slug}>{post.node.frontmatter.title}</Link><span style={{color:'grey',marginBottom:'inherit'}}> - {post.node.frontmatter.date}</span>
                   {/* Taglist End */}
                   {/* <p>{post.node.frontmatter.date}</p> */}
                   {/* <div className="post-list__excerpt">{post.node.excerpt}</div> */}

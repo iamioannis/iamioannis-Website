@@ -5,11 +5,11 @@ const Newsletter = ({children}) =>(
     backgroundcolor: `#FFFFF`, 
     // marginTop:`20px`,
     // marginRight:`10px`,
-    margin: `20px 7em 10px`,
+    //margin: `20px 7em 10px`,
     textAlign: `center`,
     border: `1px dotted`,
-    // maxWidth: `150px`,
-    minWidth:`fit-content`
+    maxWidth: `15em`,
+    //minWidth:`fit-content`
   }}>
     <a>Want to receive content from me on your inbox?</a>
     <form action="https://iamioannis.substack.com/api/v1/import/form" method="post" target="result">
