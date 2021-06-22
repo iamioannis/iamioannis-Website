@@ -1,12 +1,21 @@
 .nav-list-item{
-
-    li {
-        float: left;
+        display: table;
+        block-size: max-content;
+        list-style: none;
+        // textAlign: "center",
+        // alignContent: "center",
+        margin: 0 auto;
+        // width: "100%",
+        padding: 0;
+        overflow: hidden;
+        list-style-type: none;
+        overflow: hidden;
+        float: none;
 
       }
       
-      li a {
-    display: block;
-    padding: 8px;
+      .listItem{
+      float: none;
+      display: table-cell;
+      padding: 6px;
     }
-}
