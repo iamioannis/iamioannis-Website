@@ -46,38 +46,25 @@ Part of the Retails store team where held various Roles.
 * IS&T Champion
   * Member of the IS&T Champion team for the flagship store of Covent Garden that supports maintenance and technical support for Retail systems.
     *Activities included:*
-    • Resolving technical problems that occur in daily store operations and activities.
-    • Implement and maintain software and hardware updates.
-    • Working closely with Retail support systems team on efficient tracking and solving any occurring issues.
-    • Maintaining a high level of communication within teams
+    * Resolving technical problems that occur in daily store operations and activities.
+    * Implement and maintain software and hardware updates.
+    * Working closely with Retail support systems team on efficient tracking and solving any occurring issues.
+    * Maintaining a high level of communication within teams
 * Workshop Facilitator
   * Educating customers about Apples latest hardware, software and services.
-Delivering workshops on the following subjects.
-• Mac
-• iPhone
-• iPad
-• OSX
-• iOS
-• iWork (Pages, Keynote, Numbers)
-• iPhoto
-• Accessibility (OSX, iOS)
-• iCloud
+  * Delivering workshops on the following subjects.
+    * Mac,iPhone, iPad, OSX, iOS, iWork (Pages, Keynote, Numbers), iPhoto, Accessibility (OSX, iOS), iCloud
 * Mentor
   * Part of the of the Mentor Team at the UK flagship store in Covent Garden. My role is to support the team with necessary training, support the on boarding process for new members of the team and help existing team members in role progression.
   
 ## Education
 ---
 ### BSc Honours in Computer Science (Software Engineering)
-
-University of Hertfordshire
-
-2010 - 2014, Hatfield, UK
+2010 - 2014, University of Hertfordshire -- Hatfield, UK
 
 ### Diploma in Software Engineering (HND equivalent)
 
-Sindos Institute of Professional Training
-
-2005 - 2007, Thessaloniki, Greece
+2005 - 2007, Sindos Institute of Professional Training -- Thessaloniki, Greece
 
 ---
 | **Traits** | Industry knowledge | Skills |
