@@ -37,8 +37,7 @@ export default ProjectsPage;
 
 export const projectsQuery = graphql`
   query {
-    allProjectsJson(sort: { order: DESC, fields: [date] }) {
-      edges {
+    allProjectsJson(sort: { order: DESC, fields: [date] }) {      edges {
         node {
           id
           title
@@ -47,9 +46,7 @@ export const projectsQuery = graphql`
           url
           thumbnailImage {
             childImageSharp {
-              fluid(maxWidth: 1200) {...GatsbyImageSharpFluid
-              }
-            }
+              fluid(maxWidth: 1200) {                ...GatsbyImageSharpFluid              }            }
           }
         }
       }
