@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
+import Navigation from '../components/navigation';
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext;
@@ -12,7 +13,9 @@ const Tags = ({ pageContext, data }) => {
   return (
     <Layout>
       <div>
-        <h1>{tagHeader}</h1>
+        <h1 className={"post-header"}>{tag}</h1>
+      <Navigation></Navigation>
+        <h3>{tagHeader}</h3>
         <ul>
           {edges.map(({ node }) => {
             const { title, date } = node.frontmatter;

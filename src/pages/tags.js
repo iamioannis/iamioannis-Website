@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Link, graphql } from 'gatsby';
+import Navigation from '../components/navigation';
 
 import { kebabCase } from 'lodash';
 
@@ -12,7 +13,8 @@ const TagsPage = ({ data }) => {
   return (
     <Layout>
       <div>
-        <h1>Tags</h1>
+        <h1 className={"post-header"}>Tags</h1>
+        <Navigation/>
         <ul>
           {allTags.map(tag => (
             <li key={tag.fieldValue}>
