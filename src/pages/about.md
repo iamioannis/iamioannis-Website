@@ -1,11 +1,10 @@
 ---
 title: About
 ---
-Nice to meet you and welcome to my corner of the internet
+My name is Ioannis Mastigopoulos and I created this website to be a central point for me on the internet.
+I might be using many platforms to share content etc but I also do believe in owning your content and also have a place that I make the decisions of where is what, how it is displayed and how I want to present it.
 
-My name is Ioannis Mastigopoulos and I created this website as I aim for it to be a central point for me on the internet.
-
-You can find about for a work experience in a more CV like format you can check it here [Resume](../resume)
+You can find about my work experience in a more CV like format you can check it here [Resume](../resume)
 
 ## Ways to Connect
 
