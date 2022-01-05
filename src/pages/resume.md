@@ -12,7 +12,7 @@ Part of the Product team of Beat and working at Passenger and Driver experience.
 
 *May 2019 - May 2021, Greece*
 
-Worked on launching various Products, mainly on the tools vertical, as part of a Senior Scrum Team and Product team.
+Worked on launching various Products, mainly around regulatory and customer Accounts verticals, as part of a Senior Scrum Team and Product team.
 Collaborating in a Tribe and Company level on Product Strategy, Roadmap and Product Development
 
 ### **Solutions Engineer @ Cortexica Vision Systems**
