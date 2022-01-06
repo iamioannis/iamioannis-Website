@@ -13,7 +13,7 @@ const IndexPage = () => (
     <p>Welcome to my personal Internet corner</p>
     <Link to="/blog/">📝 Writing</Link> <br/>
     <Link to="/about">🙋‍♂️ About me</Link> <br/>
-    <Link to="/ch">👋 Clubhouse notes</Link> <br/>
+    <Link to="/shelve">📚 Shelve</Link> <br/>
     </div>
   </Layout>
 )
