@@ -4,8 +4,7 @@ title: 📚 Shelve
 My personal collection of favourite books, articles, podcasts, resources, tools etc.
 
 ### Books
-
-#### To read
+#### Reading List
 <small>*(I jump back and forth books all the time. May be reading more than one at the same time)*</small>
 
 * [Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value](https://www.goodreads.com/book/show/58093580-continuous-discovery-habits) ***currently reading***
