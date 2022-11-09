@@ -11,7 +11,7 @@ I’m Ioannis and I am a Product Manager. I currently work at a Ride-Hailing com
 In the past, I have spent 7 years in London UK where I studied Software Engineering while working at Apple as a Retail Specialist. After graduating, I then moved to iOS Business Systems Analyst possition at Apple, then to a Solutions Engineer role at an AI computer Vision Startup called Cortexica (Acquired by Zebra)
 
 ### Future
-I’m always excited about learning new things about Product Development and Human Interactions. Marketplace products excite me for their Network effects and their feedback loops but I also keep a dear interest about Consumer-focused products that demonstrate craftsmanship and customer focus.
+I’m always excited about learning new things about Product Development and Human Interactions. Marketplace products excite me for their Network effects and their feedback loops but I also keep a dear interest about Consumer-focused products that demonstrate craftsmanship.
 
 ## Work Experience
 ---
