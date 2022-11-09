@@ -1,13 +1,25 @@
 ---
 title: Resume
 ---
+
+## Introduction
+---
+### Present
+I’m Ioannis and I am a Product Manager. I currently work at a Ride-Hailing company focusing on Passenger Experience. I love solving problems, awesome products, nature, cultural escapes and spending time with family, friends and my dog
+
+### Past
+In the past, I have spent 7 years in London UK where I studied Software Engineering while working at Apple as a Retail Specialist. After graduating, I then moved to iOS Business Systems Analyst possition at Apple, then to a Solutions Engineer role at an AI computer Vision Startup called Cortexica (Acquired by Zebra)
+
+### Future
+I’m always excited about learning new things about Product Development and Human Interactions. Marketplace products excite me for their Network effects and their feedback loops but I also keep a dear interest about Consumer-focused products that demonstrate craftsmanship and customer focus.
+
 ## Work Experience
 ---
-### **Product Manager @ Beat**
+### **Senior Product Manager @ Beat**
 
 *May 2021 -  Present, Remote*
 
-Part of the Product team of Beat and working at Passenger and Driver experience.
+Part of the Product team of Beat and working at Passenger Experience. Focusung on Ride and Passenger retention. 
 ### **Product Owner @ Kaizen Gaming**
 
 *May 2019 - May 2021, Greece*
