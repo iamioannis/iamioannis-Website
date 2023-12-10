@@ -17,7 +17,7 @@ I’m always excited about learning new things about Product Development and Hum
 ---
 ### **Senior Product Manager @ Beat**
 
-*May 2021 -  Present, Remote*
+*May 2021 -  Novemnber 2022, Remote*
 
 Part of the Product team of Beat and working at Passenger Experience. Focusing on Ride and Passenger retention.
 ### **Product Owner @ Kaizen Gaming**

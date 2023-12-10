@@ -32,7 +32,9 @@ export default NewsletterPage;
 
 export const letterPageQuery = graphql`
   query {
-    allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: {type: {eq: "post"}, tags: {eq: "newsletter"}}}) {
+    allMarkdownRemark(
+        sort: {frontmatter: {date: DESC}}, 
+        filter: {frontmatter: {type: {eq: "post"}, tags: {eq: "newsletter"}}}) {
     edges {
         node {
         id

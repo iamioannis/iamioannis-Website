@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `iamioannis`,
-    description: `Personal Internet corner of Ioannis Mastigopoulos`,
+    siteUrl: "https://iamioannis.com",
+    description: "Personal Internet corner of Ioannis Mastigopoulos",
     author: `@iamioannis`,
   },
   plugins: [
@@ -52,10 +53,69 @@ module.exports = {
               // base for generating different widths of each image.
               maxWidth: 600,
             },
-          },
+          },  
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+      query: `
+          {
+          site {
+              siteMetadata {
+              title
+              description
+              siteUrl
+              site_url: siteUrl
+              }
+          }
+          }
+      `,
+      feeds: [
+          {
+          serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+              return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.excerpt,
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  custom_elements: [{ "content:encoded": edge.node.html }],
+              })
+              })
+          },
+          query: `
+          {
+            allMarkdownRemark(
+              sort: {order: DESC, fields: [frontmatter___date]}
+              filter: {frontmatter: {type: {eq: "post"}, status: {eq: "published"}}}
+            ) {
+              edges {
+                node {
+                  id
+                  excerpt(pruneLength: 250)
+                  html
+                  fields {
+                    slug
+                  }
+                  frontmatter {
+                    date(formatString: "MMM DD, YYYY")
+                    title
+                    tags
+                  }
+                }
+              }
+            }
+          }
+          `,
+          output: "/rss.xml",
+          title: "iamioannis.com RSS feed",
+          match: "^/blog/",
+          },
+      ],
+      },
+  },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
