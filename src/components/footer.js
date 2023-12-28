@@ -3,7 +3,8 @@ import React from 'react'
 const Footer = ({children}) => (
 <footer style={{
     margin: '15px auto',
-    maxWidth: `400px`
+    maxWidth: `400px`,
+    fontSize: '15px',
 
 }}>
           © Ioannis Mastigopoulos {new Date().getFullYear()}, Built with
