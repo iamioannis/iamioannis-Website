@@ -19,7 +19,12 @@ I’m always excited about learning new things about Product Development and Hum
 
 *May 2021 -  Novemnber 2022, Remote*
 
-Part of the Product team of Beat and working at Passenger Experience. Focusing on Ride and Passenger retention.
+Part of the Product team of Beat and working at Passenger Experience focusing on Ride and Passenger retention.
+
+* Lead the 0 - 1 motion of changing the core  transportation concept (A -> B) to multipoint journeys
+* Part of a kickstart team that setup a Product ang Engineering hub for Beat in Mexico City
+
+
 ### **Product Owner @ Kaizen Gaming**
 
 *May 2019 - May 2021, Greece*
