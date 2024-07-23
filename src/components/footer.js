@@ -1,4 +1,5 @@
 import React from 'react'
+import Carbonbadge from 'react-carbonbadge'
 
 const Footer = ({children}) => (
 <footer style={{
@@ -10,6 +11,7 @@ const Footer = ({children}) => (
           © Ioannis Mastigopoulos {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <Carbonbadge darkMode={true} />
         </footer>
 )
 
