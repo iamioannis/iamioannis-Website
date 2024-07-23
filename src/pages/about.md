@@ -16,4 +16,7 @@ On the other hand there is a whole world of the web where you can find me so you
 * [LinkedIn](https://www.linkedin.com/in/ioannismastigopoulos/)
 * [Twitter](https://twitter.com/iamioannis)
 * [Telegram](https://t.me/iamioannis)
+
+<div id="wcb" class="carbonbadge wcb-d"></div>
+<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
   
